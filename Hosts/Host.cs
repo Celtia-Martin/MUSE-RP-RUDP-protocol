@@ -256,7 +256,7 @@ namespace Muse_RP.Hosts
 
                 while (messagesToProcess.getSize() > 0)
                 {
-                    ProcessNextMessage(); //No es concurrente, posibilidad de hacerlo concurrente?
+                    ProcessNextMessage(); 
                 }
 
                 Thread.Sleep(hostOptions.waitTime);
