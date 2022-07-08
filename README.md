@@ -15,7 +15,7 @@ Both of them guarantee an orderly delivery.
 Implementation of INIT and END messages to initiate and terminate connections.
 ### Ping messages
 Use of a custom ping mechanism, whose RTT calculation is used to adapt the timers that trigger message retransmissions.
-It also close connections that have not answered within a certain (and configurable) time.
+It also closes connections that have not answered within a certain (and configurable) time.
 The ping interval is also configurable by the programmer.
 ### Fast retrasmission
 Like TCP, MUSE-RP will retransmit the oldest unacknowledged message if it receives three duplicate ACKs.
