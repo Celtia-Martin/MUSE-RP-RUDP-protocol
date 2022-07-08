@@ -23,6 +23,7 @@ Like TCP, MUSE-RP will retransmit the oldest unacknowledged message if it receiv
 Use of message type handlers that simplify the development of the application.
 ### Lightweight header
 MUSE-RP uses a 11 byte header for each package.
+![big image](/MUSE-RPHeader.png)
 ## Usage
 A sample implementation of MUSE-RP in a multiplayer video game developed with Unity:
 
