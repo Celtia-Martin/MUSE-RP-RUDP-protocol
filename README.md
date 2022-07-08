@@ -57,6 +57,7 @@ https://github.com/Celtia-Martin/MUSERP-Test
 ```
 ### Server example configuration
 ```csharp
+	//Initialization
         HostOptions options = new HostOptions()
         {
             maxConnections = 20,
